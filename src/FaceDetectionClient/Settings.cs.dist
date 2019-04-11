@@ -1,0 +1,23 @@
+﻿using Microsoft.Azure.CognitiveServices.Vision.Face.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace FaceDetectionClient
+{
+    public static class Settings
+    {
+        public const string SubscriptionKey = "";
+        public const string Endpoint = "";
+        public static readonly FaceAttributeType[] FaceAttributes = {
+            FaceAttributeType.Age,
+            FaceAttributeType.Gender,
+            FaceAttributeType.Emotion,
+            FaceAttributeType.Hair,
+            FaceAttributeType.Glasses,
+            FaceAttributeType.Accessories,
+            FaceAttributeType.Smile
+        };
+    }
+}
