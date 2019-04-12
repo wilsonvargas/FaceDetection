@@ -13,11 +13,10 @@ namespace FaceDetectionClient.Helpers
             string attributes = string.Empty;
 
             foreach (DetectedFace face in faceList)
-            {
+            {                
                 double? age = face.FaceAttributes.Age;
                 string gender = face.FaceAttributes.ToString();
-                string smile = (face.FaceAttributes.Smile > 0) ? "is smiling" : "is not smiling";
-                attributes += gender + " " + age + "   " + smile + " - ";
+                attributes += gender + " " + age + " - ";
             }
 
             return attributes;
