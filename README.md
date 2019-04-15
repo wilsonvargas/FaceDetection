@@ -45,4 +45,4 @@ public static class Settings
 
 
 #### License
-Licensed under [MIT](LICENSE), see license file
+Licensed under MIT, [see license file](LICENSE)
