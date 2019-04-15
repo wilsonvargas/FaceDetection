@@ -42,3 +42,7 @@ public static class Settings
     };
 }
 ```
+
+
+#### License
+Licensed under [MIT](LICENSE), see license file
