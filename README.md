@@ -17,8 +17,6 @@ Built with ASP.Net MVC
 
 You can find the following content related to this sample:
 
-> Some content is available in Spanish.
-
 * [Creating your free Azure account](https://azure.microsoft.com/en-us/free/)
 * [Cognitive Services: Face](https://azure.microsoft.com/en-us/services/cognitive-services/face/)
 
